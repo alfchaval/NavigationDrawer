@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Preferencias generales">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="showimage"
+            android:title="Mostrar icono"
+            android:summary="Muestra u oculta el icono"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
